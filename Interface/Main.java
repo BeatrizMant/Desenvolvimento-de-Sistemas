@@ -22,9 +22,6 @@ public class Main extends Generica {
 			System.out.println("Qual o seu cpf?");
 			Corrente1.setCpf(in.next());
 			
-			// N�mero da conta
-			//System.out.println("Qual o n�mero da conta?");
-			//Corrente1.setNumeroConta(in.next());
 			
 			
 			System.out.println("Qual ação você deseja realizar em sua conta? (Depósito, Saque, Consultar saldo)");
@@ -68,11 +65,7 @@ public class Main extends Generica {
 			// Cpf 
 			System.out.println("Qual o seu cpf?");
 			Poupanca1.setCpf(in.next());
-						
-			// N�mero da conta
-			//System.out.println("Qual o n�mero da conta?");
-			//Poupanca1.setNumeroConta(in.next());
-						
+							
 			
 			System.out.println("Qual ação você deseja realizar em sua conta? (Depósito, Saque, Consultar saldo)");
 			respAcao = in.next();
